@@ -1,0 +1,30 @@
+.container{
+    margin: 40px auto;
+    padding: 50px;
+    text-align: center;
+    width: 300px;
+    background-color: aqua;
+    border: 3px solid black;
+}
+h1{
+    padding: 20px;
+    border: 2px dashed gold;
+}
+img{
+    height: 25px;
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+li{
+    cursor: pointer;
+    /* border: 2px solid  */
+    padding: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: green;
+    opacity: 0.3;
+}
